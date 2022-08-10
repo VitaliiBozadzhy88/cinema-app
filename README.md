@@ -1,1 +1,1 @@
-#  🎥🎥🎥🎥🎥 CINEMA-APPLICATION 🎥🎥🎥🎥🎥
+# CINEMA-APPLICATION 🎥🎥🎥🎥🎥
