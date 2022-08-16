@@ -3,17 +3,17 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/ticket_app?serverTimezone=UTC</property>
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">vitalik88</property>
+        <property name="connection.username">username</property>
+        <property name="connection.password">password</property>
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
 
-        <mapping class="mate.academy.model.CinemaHall"/>
-        <mapping class="mate.academy.model.Movie"/>
-        <mapping class="mate.academy.model.MovieSession"/>
-        <mapping class="mate.academy.model.User"/>
-        <mapping class="mate.academy.model.ShoppingCart"/>
-        <mapping class="mate.academy.model.Ticket"/>
-        <mapping class="mate.academy.model.Order"/>
+        <mapping class="vitalii.bozadzhy.model.CinemaHall"/>
+        <mapping class="vitalii.bozadzhy.model.Movie"/>
+        <mapping class="vitalii.bozadzhy.model.MovieSession"/>
+        <mapping class="vitalii.bozadzhy.model.User"/>
+        <mapping class="vitalii.bozadzhy.model.ShoppingCart"/>
+        <mapping class="vitalii.bozadzhy.model.Ticket"/>
+        <mapping class="vitalii.bozadzhy.model.Order"/>
     </session-factory>
 </hibernate-configuration>
